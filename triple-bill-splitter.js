@@ -57,6 +57,7 @@ else if (bill1 = bill3 && bill3 > bill2){
     let result = (((bill1 - bill2) + bill2) / 2);
     console.log("friend 2 owes friend 1 and 3 each: $" + result)
 }
+// instance 9
 else if (bill3 = bill2 && bill2 > bill1){
     let result = (((bill3 - bill1) + bill1) / 2);
     console.log("friend 1 owes friend 2 and 3 each: $" + result)
